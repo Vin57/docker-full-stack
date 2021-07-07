@@ -5,6 +5,7 @@
     "nodemon": "^2.0.9"
   },
   "scripts": {
-    "start": "nodemon -L ./src/index.js"
+    "start": "nodemon -L ./src/index.js",
+    "prod": "pm2-runtime ecosystem.config.js"
   }
 }
